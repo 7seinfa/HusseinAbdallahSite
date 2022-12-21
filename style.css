@@ -12,7 +12,7 @@ h1{
   font-weight: bold;
 }
 h3 {
-  font-size: 3vh
+  font-size: 3.7vh
 }
 a, a:hover{
   color: white;
@@ -49,9 +49,9 @@ a, a:hover{
   padding-right: 1vh;
 }
 .btn{
-  width: 20vw;
-  height: 10vw;
-  font-size: 3vw;
+  width: 15vw;
+  height: 6vw;
+  font-size: 2vw;
   border-radius: 4vw;
   background-color: #742589;
   border-color: white;
@@ -86,7 +86,7 @@ a, a:hover{
 }
 .img-crop-to-div{
   height: auto;
-  width: 90%;
+  width: 80%;
   margin-left: 15%;
   filter: drop-shadow(0mm -4mm 9mm rgb(0, 0, 0));
 }
@@ -169,6 +169,7 @@ a, a:hover{
 .tl-left {
   border-right: solid 5px;
   text-align: right;
+  min-height: 20vh;
 }
 .tl-left > .tl-item {
   padding-right: 30px;
@@ -200,6 +201,7 @@ a, a:hover{
 .tl-item {
   transform: translate(0, -4px);
   font-weight: 100;
+  word-wrap: break-word;
 }
 .tl-last{
   border-right: solid 0px;
