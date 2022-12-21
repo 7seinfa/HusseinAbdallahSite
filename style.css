@@ -44,16 +44,24 @@ a, a:hover{
 .padding-right{
   padding-right: 1rem;
 }
-.btn-success{
+.btn{
   width: 13rem;
   height: 3.5rem;
   font-size: 1.5rem;
   border-radius: 1.5rem;
   background-color: #742589;
+  border-color: white;
+  color: white;
   border: 0;
 }
-.btn-success:hover{
+.btn:hover{
   background-color: #7939B1;
+  border-color: white;
+  color: white;
+}
+.btn:focus{
+  border-color: white;
+  color: white;
 }
 .navbar > .container-fluid {
   margin: 0 3rem;
